@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 
 body{
   height: auto;
@@ -26,7 +27,7 @@ h1{
   position: relative;
   float: right;
   top: -100px;
-  right: 20px;
+  right: 12px;
 }
 
 #guy{
@@ -42,10 +43,27 @@ h1{
   width: 950px;
   height: 350px;
   border-radius: 19.6px;
-  left: 12%
+  left: 12%;
 }
 
 #az{
   position: relative;
   left: 12%;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 36px;
+}
+
+#azi{
+  position: relative;
+  float: right;
+  right: 12%;
+  height: 33px;
+  width: 34px;
+  top: -60px;
+}
+
+.azi{
+  position: relative;
+  left: 24%;
+  border-radius: 50%;
 }
