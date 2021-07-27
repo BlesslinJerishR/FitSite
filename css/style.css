@@ -60,7 +60,7 @@ h1{
 #guy{
   width: 925px;
   height: 560px;
-  border: 2px solid #00FFFF;
+  border: 2px solid #FFFF00;
   border-radius: 15px;
   border-radius: 15px;
   position: relative;
@@ -143,7 +143,7 @@ h1{
 
 #three1, #three2, #three3{
   border-radius: 19.6px;
-  border: 2px solid #00FFFF;
+  border: 2px solid #FFFF00;
 }
 
 #three1:hover {
@@ -214,7 +214,7 @@ h1{
 }
 
 #f1, #f2, #f3, #f4{
-  border: 2px solid #00FFFF;
+  border: 2px solid #FFFF00;
   border-radius: 19.6px;
 }
 
@@ -264,7 +264,7 @@ p{
 
 
 #ff1, #ff2, #ff3, #ff4, #ff5, #ff6{
-  border: 2px solid #00FFFF;
+  border: 2px solid #FFFF00;
   border-radius: 19.6px;
   width: 280px;
   height: 160px;
@@ -339,7 +339,7 @@ p{
 }
 
 #s1, #s2, #s3, #s4{
-  border: 2px solid #00FFFF;
+  border: 2px solid #FFFF00;
   border-radius: 19.6px;
   height: auto !important;
   width: 280px !important;
@@ -424,21 +424,6 @@ p{
   top: -59px;
 }
 
-#but{
-  position: relative;
-  height: 50px;
-  background-color: #00FFFF;
-  text-decoration: none;
-  color: white;
-  outline: none;
-  left: 45%;
-  top: -15px;
-  text-align: center;
-  border-radius: 6px;
-  border: 3px solid white;
-  font-family: 'albert', cursive !important;
-}
-
 .doctors{
   position: relative;
   left: 10%;
@@ -446,8 +431,14 @@ p{
   flex-flow: row wrap;
 }
 
+#readb{
+  position: absolute;
+  top: 1050px;
+  left: -750px !important;
+}
+
 #d1, #d2, #d3, #d4, #d5, #d6{
-  border: 2px solid #00FFFF;
+  border: 2px solid #FFFF00;
   border-radius: 19.6px;
   -webkit-filter: grayscale(100%);
 }
