@@ -256,3 +256,98 @@ h1{
   top: -70px;
   left: 52%;
 }
+
+#t, #q, #p{
+  position: relative;
+  left: 12%;
+}
+
+.foursome{
+  position: relative;
+  display: flex;
+  left: 12%;
+}
+
+#f1, #f2, #f3, #f4{
+  border: 2px solid #00ff00;
+  border-radius: 19px;
+}
+
+#f1:hover , #f2:hover , #f3:hover , #f4:hover {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+p{
+  font-family: 'albert', cursive;
+  z-index: 1;
+  font-size: 18px;
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+        1px 1px 0 #000,
+       1px -1px 0 #000;
+      -1px -1px 0 #000;
+}
+
+#p1{
+  position: relative;
+  left: -830px;
+}
+
+#p2{
+  position: relative;
+  left: -680px;
+}
+
+#p3{
+  position: relative;
+  left: -480px;
+}
+
+#p4{
+  position: relative;
+  left: -340px;
+}
+
+.five{
+  position: relative;
+  left: 12%;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 23px;
+}
+
+break{
+  flex-basis: 100%;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}
+
+#ff1, #ff2, #ff3, #ff4, #ff5, #ff6{
+  border: 2px solid #00ff00;
+  border-radius: 19.6px;
+  width: 280px;
+}
+
+#pp1{
+  position: relative;
+  top: -160px;
+  left: -930px;
+}
+
+#pp2{
+  position: relative;
+  top: -160px;
+  left: 30%;
+}
+
+/* #pp3{
+  position: relative;
+  top: -160px;
+  left: -930px;
+} */
