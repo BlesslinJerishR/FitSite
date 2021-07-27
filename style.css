@@ -151,12 +151,12 @@ h1{
 				  1px 1px 0 #000,
 				 1px -1px 0 #000;
 				-1px -1px 0 #000;
-  top: 28%;
+  top: 25%;
   left: 2%;
 }
 
-/* #text32{
-  position: relative;
+#text32{
+  position: fixed;
   color: white !important;
   z-index: 2;
   font-family: 'Poppins', sans-serif;
@@ -164,12 +164,12 @@ h1{
 				  1px 1px 0 #000,
 				 1px -1px 0 #000;
 				-1px -1px 0 #000;
-  top: -250px;
-  left: 2%;
+  top: 25%;
+  left: 26%;
 }
 
 #text33{
-  position: relative;
+  position: fixed;
   color: white !important;
   z-index: 2;
   font-family: 'Poppins', sans-serif;
@@ -177,6 +177,61 @@ h1{
 				  1px 1px 0 #000,
 				 1px -1px 0 #000;
 				-1px -1px 0 #000;
-  top: -250px;
-  left: 2%;
-} */
+  top: 25%;
+  left: 51%;
+}
+
+.cd1 h3{
+  position: sticky;
+  color: white !important;
+  z-index: 2;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -50px;
+  margin-left: 14%;
+  overflow: auto;
+  float: left;
+}
+
+.cd1 img{
+  height: 60px !important;
+  width: 60px;
+  position: relative;
+  top: -70px;
+  left: 24%;
+}
+
+.cd2 h3{
+  position: sticky;
+  color: white !important;
+  z-index: 2;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 39%;
+  margin-top: -110px;
+  overflow: auto;
+}
+
+.cd2 img{
+  height: 60px !important;
+  width: 60px;
+  position: relative;
+  top: -70px;
+  left: 49%;
+}
+
+.cd3 h3{
+  position: sticky;
+  color: white !important;
+  z-index: 2;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 64%;
+  margin-top: -110px;
+  overflow: auto;
+}
+
+.cd3 img{
+  height: 60px !important;
+  width: 60px;
+  position: relative;
+  top: -70px;
+  left: 74%;
+}
