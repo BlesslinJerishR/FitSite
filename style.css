@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 body{
   height: auto;
@@ -31,13 +32,52 @@ h1{
 }
 
 #guy{
-  width: 950px;
+  width: 925px;
   height: 560px;
   border-radius: 15px;
   position: relative;
   left: 12%;
+  -webkit-filter: brightness(100%);
 }
 
+#guy:hover {
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#g1{
+  position: absolute;
+  left: 20%;
+  top: 43%;
+  font-size: 55px;
+  color: white;
+  z-index: 1 !important;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				-1px -1px 0 #000;
+}
+
+#dan{
+  position: absolute;
+  z-index: 1 !important;
+  left: 15%;
+  top: 93%;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+#dani{
+  position: absolute;
+  z-index: 1 !important;
+  left: 28%;
+  top: 93%;
+}
 #three{
   position: relative;
   width: 950px;
@@ -67,3 +107,76 @@ h1{
   left: 24%;
   border-radius: 50%;
 }
+
+.threes{
+  position: relative;
+  left: 12%;
+  -webkit-filter: brightness(100%);
+  display: flex;
+}
+
+#three1:hover {
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#three2:hover {
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#three3:hover {
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#text31{
+  position: fixed;
+  color: white !important;
+  z-index: 2;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				-1px -1px 0 #000;
+  top: 28%;
+  left: 2%;
+}
+
+/* #text32{
+  position: relative;
+  color: white !important;
+  z-index: 2;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				-1px -1px 0 #000;
+  top: -250px;
+  left: 2%;
+}
+
+#text33{
+  position: relative;
+  color: white !important;
+  z-index: 2;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				-1px -1px 0 #000;
+  top: -250px;
+  left: 2%;
+} */
