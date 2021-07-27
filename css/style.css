@@ -7,16 +7,22 @@
   src: url(../fonts/albert.otf);
 }
 
+@font-face {
+  font-family: gotham;
+  src: url(../fonts/gotham.ttf);
+}
+
 html{
-    font-family: 'albert', cursive !important;
+    font-family: "Poppins",Arial,sans-serif;
+    scroll-behavior: smooth !important;
 }
 
 body{
   height: auto;
   width: auto;
   overflow-x: hidden !important;
-  background-color: #17131e;
-  font-family: 'albert', cursive !important;
+  background-color: #000000;
+  font-family: "Poppins",Arial,sans-serif;
 }
 
 #menu{
@@ -31,11 +37,11 @@ body{
   position: relative;
   text-align: center;
   top: -33px;
+  font-family: 'albert', cursive !important;
 }
 
 h1{
-  font-family: 'albert', cursive !important;
-  color: white;
+    color: white;
 }
 
 #search{
@@ -53,7 +59,7 @@ h1{
 #guy{
   width: 925px;
   height: 560px;
-  border: 2px solid #00ff00;
+  border: 2px solid #ffffff;
   border-radius: 15px;
   border-radius: 15px;
   position: relative;
@@ -74,21 +80,21 @@ h1{
   position: absolute;
   left: 20%;
   top: 43%;
-  font-size: 55px;
+  font-size: 50px;
   color: white;
   z-index: 1 !important;
-  font-family: 'albert', cursive !important;
-    text-shadow: -1px 1px 0 #000,
+  font-family: "Poppins",Arial,sans-serif !important;
+    /* text-shadow: -1px 1px 0 #000,
 				  1px 1px 0 #000,
 				 1px -1px 0 #000;
-				-1px -1px 0 #000;
+				-1px -1px 0 #000; */
 }
 
 #dan{
   position: absolute;
   z-index: 1 !important;
   left: 15%;
-  top: 93%;
+  top: 99%;
   color: white;
   font-family: 'albert', cursive !important;
 }
@@ -97,7 +103,7 @@ h1{
   position: absolute;
   z-index: 1 !important;
   left: 28%;
-  top: 93%;
+  top: 99%;
 }
 #three{
   position: relative;
@@ -138,7 +144,7 @@ h1{
 
 #three1, #three2, #three3{
   border-radius: 19.6px;
-  border: 2px solid #00ff00;
+  border: 2px solid #ffffff;
 }
 
 #three1:hover {
@@ -168,42 +174,76 @@ h1{
   transition: all 1s ease;
 }
 
-#text31{
+.text31{
   position: fixed;
   color: white !important;
   z-index: 1;
   font-family: 'albert', cursive !important;
-    text-shadow: -1px 1px 0 #000,
-				  1px 1px 0 #000,
-				 1px -1px 0 #000;
-				-1px -1px 0 #000;
-  top: 25%;
+  top: 33%;
   left: 2%;
 }
 
-#text32{
+.text311{
+  position: fixed;
+  color: white !important;
+  z-index: 1;
+  font-family: 'albert', cursive !important;
+  top: 55%;
+  left: 2%;
+}
+
+.ml6 {
+  position: relative;
+  font-weight: 90;
+  font-size: 1.7em;
+}
+
+.ml6 .text-wrapper {
+  position: fixed;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.text32{
   position: fixed;
   color: white !important;
   z-index: 2;
   font-family: 'albert', cursive !important;
-    text-shadow: -1px 1px 0 #000,
-				  1px 1px 0 #000,
-				 1px -1px 0 #000;
-				-1px -1px 0 #000;
-  top: 25%;
+  top: 33%;
   left: 26%;
 }
 
-#text33{
+.text322{
+  position: fixed;
+  color: white !important;
+  z-index: 2;
+  font-family: 'albert', cursive !important;
+  top: 55%;
+  left: 26%;
+}
+
+.text33{
   position: fixed;
   color: white !important;
   z-index: 4 !important;
   font-family: 'albert', cursive !important;
-  text-shadow: -1px 1px 0 #000,
-        1px 1px 0 #000,
-       1px -1px 0 #000;
-      -1px -1px 0 #000;
-  top: 25%;
+  top: 33%;
+  left: 51%;
+}
+
+.text333{
+  position: fixed;
+  color: white !important;
+  z-index: 1;
+  font-family: 'albert', cursive !important;
+  top: 55%;
   left: 51%;
 }
 
@@ -274,7 +314,7 @@ h1{
 }
 
 #f1, #f2, #f3, #f4{
-  border: 2px solid #00ff00;
+  border: 2px solid #ffffff;
   border-radius: 19px;
 }
 
@@ -292,10 +332,6 @@ p{
   z-index: 1;
   font-size: 18px;
   color: white;
-  text-shadow: -1px 1px 0 #000,
-        1px 1px 0 #000,
-       1px -1px 0 #000;
-      -1px -1px 0 #000;
 }
 
 #p1{
@@ -315,7 +351,7 @@ p{
 
 #p4{
   position: relative;
-  left: -340px;
+  left: -338px;
 }
 
 .five{
@@ -334,7 +370,7 @@ break{
 }
 
 #ff1, #ff2, #ff3, #ff4, #ff5, #ff6{
-  border: 2px solid #00ff00;
+  border: 2px solid #ffffff;
   border-radius: 19.6px;
   width: 280px;
 }
@@ -342,7 +378,7 @@ break{
 #pp1{
   position: relative;
   top: -160px;
-  left: -930px;
+  left: -900px;
 }
 
 #pp2{
@@ -404,6 +440,109 @@ break{
 
 .sixsome{
   position: relative;
+  left: 11.5%;
+}
+
+#s1, #s2, #s3, #s4{
+  border: 2px solid #ffffff;
+  border-radius: 19.6px;
+}
+
+#s1:hover, #s2:hover, #s3:hover, #s4:hover{
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#s2{
+  position: relative;
+  top: 80px !important;
+}
+
+#s4{
+  position: relative;
+  top: 80px !important;
+}
+
+#sp1{
+  position: relative;
+  top: -150px !important;
+  left: 15px !important;
+  z-index: 2;
+}
+
+#sp2{
+  position: relative;
+  top: -150px !important;
+  left: 260px !important;
+  z-index: 2;
+}
+
+#sp3{
+  position: relative;
+  top: -300px !important;
+  left: 520px !important;
+  z-index: 2;
+}
+
+#sp4{
+  position: relative;
+  top: -280px !important;
+  left: 770px !important;
+  z-index: 2;
+}
+
+#line{
+  text-align: center;
+  position: relative;
+  top: -59px;
+}
+
+#but{
+  position: relative;
+  height: 50px;
+  background-color: #6163ff;
+  text-decoration: none;
+  color: white;
+  outline: none;
+  left: 45%;
+  top: -15px;
+  text-align: center;
+  border-radius: 6px;
+  border: 3px solid white;
+  font-family: 'albert', cursive !important;
+}
+
+.doctors{
+  position: relative;
+  left: 10%;
   display: flex;
-  left: 12%;
+  flex-flow: row wrap;
+}
+
+#d1, #d2, #d3, #d4, #d5, #d6{
+  border: 2px solid #ffffff;
+  border-radius: 19.6px;
+}
+#d1:hover, #d2:hover, #d3:hover, #d4:hover, #d5:hover, #d6:hover {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#posbug{
+  position: relative;
+  left: 10px !important;
+}
+
+figcaption{
+  color: #ffffff;
+  position: relative;
+  left: 1%;
 }
