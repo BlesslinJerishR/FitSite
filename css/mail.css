@@ -17,21 +17,6 @@ html, body {
   height: 18px;
 }
 
-.btns {
-  display: inline-block;
-  background: #FFFF00;
-  color: #000;
-  text-transform: uppercase;
-  position: relative;
-  left: -230px;
-  padding: 20px 35px;
-  border-radius: 50px;
-  border: none;
-  text-decoration: none;
-  font-weight: bold;
-  height: 18px;
-}
-
 .btn.get-code {
   top: 10px;
   z-index: 1;
@@ -99,7 +84,6 @@ form .btn.active .start {
 form .btn.done .start {
   display: none;
 }
-
 form .btn.done .done {
   display: block;
   opacity: 0;

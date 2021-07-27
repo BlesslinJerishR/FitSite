@@ -459,3 +459,46 @@ figcaption{
   position: relative;
   left: 1%;
 }
+
+.b1{
+  border: 2px solid #FFFF00 !important;
+  background: #FFFF00 !important;
+  color: #000;
+  text-transform: uppercase;
+  position: relative;
+  top: -50px;
+  left: 42%;
+  text-align: center;
+  padding-bottom: 28px;
+  font-size: 18px;
+  border-radius: 40px;
+  border: none;
+  text-decoration: none;
+  height: 50px;
+  width: 200px;
+  z-index: 4;
+}
+
+#m{
+  position: relative;
+  left: 38%;
+  top: -8px;
+}
+.b2{
+  border: 2px solid #FFFF00 !important;
+  background: #FFFF00 !important;
+  color: #000;
+  text-transform: uppercase;
+  position: relative;
+  top: -50px;
+  left: 42%;
+  text-align: center;
+  padding-bottom: 28px;
+  font-size: 18px;
+  border-radius: 40px;
+  border: none;
+  text-decoration: none;
+  height: 48px;
+  width: 200px;
+  z-index: 4;
+}
