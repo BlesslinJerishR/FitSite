@@ -63,7 +63,7 @@ h1{
   border-radius: 15px;
   border-radius: 15px;
   position: relative;
-  left: 12%;
+  left: 0%;
   -webkit-filter: brightness(80%);
 }
 
@@ -104,7 +104,11 @@ h1{
   z-index: 1 !important;
   left: 28%;
   top: 99%;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
+
 #three{
   position: relative;
   width: 950px;
@@ -264,6 +268,7 @@ h1{
   position: relative;
   top: -70px;
   left: 24%;
+  border-radius: 50%;
 }
 
 .cd2 h3{
@@ -282,6 +287,7 @@ h1{
   position: relative;
   top: -70px;
   left: 27%;
+  border-radius: 50%;
 }
 
 .cd3 h3{
@@ -300,6 +306,7 @@ h1{
   position: relative;
   top: -70px;
   left: 52%;
+  border-radius: 50%;
 }
 
 #t, #q, #p{
