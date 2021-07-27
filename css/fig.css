@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip1190 {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 220px;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+}
+figure.snip1190 * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+figure.snip1190 img {
+  opacity: 0.8;
+  width: 100%;
+}
+figure.snip1190 figcaption {
+  bottom: 0;
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+figure.snip1190 h2 {
+  font-weight: 400;
+  left: 0;
+  right: 0;
+  letter-spacing: -1px;
+  margin: 0 auto;
+  position: absolute;
+  text-transform: uppercase;
+  bottom: 50%;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+}
+figure.snip1190 h2 span {
+  font-weight: 800;
+}
+figure.snip1190 p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50%;
+  opacity: 0;
+  font-size: 14px;
+  -webkit-transform: translateY(-20%) scale(0.7);
+  transform: translateY(-20%) scale(0.7);
+}
+figure.snip1190 .square {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  -webkit-transform: rotate(45deg) translate(-50%, -50%);
+  transform: rotate(45deg) translate(-50%, -50%);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+figure.snip1190 .square:before,
+figure.snip1190 .square:after,
+figure.snip1190 .square div:before,
+figure.snip1190 .square div:after {
+  background-color: #ffffff;
+  position: absolute;
+    border-radius: 19.6px;
+  content: "";
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+figure.snip1190 .square:before,
+figure.snip1190 .square:after {
+  width: 65%;
+  height: 2px;
+}
+figure.snip1190 .square div:before,
+figure.snip1190 .square div:after {
+  width: 2px;
+  height: 65%;
+}
+figure.snip1190 .square:before,
+figure.snip1190 .square div:before {
+  left: 0;
+  top: 0;
+}
+figure.snip1190 .square:after,
+figure.snip1190 .square div:after {
+  bottom: 0;
+  right: 0;
+}
+figure.snip1190 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+figure.snip1190:hover img,
+figure.snip1190.hover img {
+  opacity: 0.25;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+figure.snip1190:hover h2,
+figure.snip1190.hover h2 {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+}
+figure.snip1190:hover p,
+figure.snip1190.hover p {
+  opacity: 1;
+  -webkit-transform: translateY(0px) scale(1);
+  transform: translateY(0px) scale(1);
+}
+figure.snip1190:hover .square:before,
+figure.snip1190.hover .square:before {
+  width: 38%;
+}
+figure.snip1190:hover .square div:before,
+figure.snip1190.hover .square div:before {
+  height: 38%;
+}
+figure.snip1190:hover .square:after,
+figure.snip1190.hover .square:after {
+  width: 55%;
+}
+figure.snip1190:hover .square div:after,
+figure.snip1190.hover .square div:after {
+  height: 55%;
+}

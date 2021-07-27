@@ -15,6 +15,7 @@
 html{
     font-family: "Poppins",Arial,sans-serif;
     scroll-behavior: smooth !important;
+    background-color: #000000 !important;
 }
 
 body{
@@ -59,7 +60,7 @@ h1{
 #guy{
   width: 925px;
   height: 560px;
-  border: 2px solid #ffffff;
+  border: 2px solid #00FFFF;
   border-radius: 15px;
   border-radius: 15px;
   position: relative;
@@ -84,10 +85,6 @@ h1{
   color: white;
   z-index: 1 !important;
   font-family: "Poppins",Arial,sans-serif !important;
-    /* text-shadow: -1px 1px 0 #000,
-				  1px 1px 0 #000,
-				 1px -1px 0 #000;
-				-1px -1px 0 #000; */
 }
 
 #dan{
@@ -109,12 +106,10 @@ h1{
   border-radius: 50%;
 }
 
-#three{
+.threes{
   position: relative;
-  width: 950px;
-  height: 350px;
-  border-radius: 20px;
-  left: 12%;
+  border-radius: 19.6px;
+  left: 10% !important;
 }
 
 #az{
@@ -148,7 +143,7 @@ h1{
 
 #three1, #three2, #three3{
   border-radius: 19.6px;
-  border: 2px solid #ffffff;
+  border: 2px solid #00FFFF;
 }
 
 #three1:hover {
@@ -178,135 +173,31 @@ h1{
   transition: all 1s ease;
 }
 
-.text31{
-  position: fixed;
-  color: white !important;
-  z-index: 1;
-  font-family: 'albert', cursive !important;
-  top: 33%;
-  left: 2%;
-}
-
-.text311{
-  position: fixed;
-  color: white !important;
-  z-index: 1;
-  font-family: 'albert', cursive !important;
-  top: 55%;
-  left: 2%;
-}
-
-.ml6 {
-  position: relative;
-  font-weight: 90;
-  font-size: 1.7em;
-}
-
-.ml6 .text-wrapper {
-  position: fixed;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
-  overflow: hidden;
-}
-
-.ml6 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
-
-.text32{
-  position: fixed;
-  color: white !important;
-  z-index: 2;
-  font-family: 'albert', cursive !important;
-  top: 33%;
-  left: 26%;
-}
-
-.text322{
-  position: fixed;
-  color: white !important;
-  z-index: 2;
-  font-family: 'albert', cursive !important;
-  top: 55%;
-  left: 26%;
-}
-
-.text33{
-  position: fixed;
-  color: white !important;
-  z-index: 4 !important;
-  font-family: 'albert', cursive !important;
-  top: 33%;
-  left: 51%;
-}
-
-.text333{
-  position: fixed;
-  color: white !important;
-  z-index: 1;
-  font-family: 'albert', cursive !important;
-  top: 55%;
-  left: 51%;
-}
-
-.cd1 h3{
-  position: sticky;
-  color: white !important;
-  z-index: 2;
-  font-family: 'albert', cursive !important;
-  margin-top: -50px;
-  margin-left: 14%;
-  overflow: auto;
-  float: left;
-}
-
-.cd1 img{
-  height: 60px !important;
-  width: 60px;
-  position: relative;
-  top: -70px;
-  left: 24%;
+#danii{
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
 }
 
-.cd2 h3{
-  position: sticky;
-  color: white !important;
+.danf{
+  position: absolute;
+  left: -30px;
+  top: 250px;
   z-index: 2;
-  font-family: 'albert', cursive !important;
-  margin-left: 39%;
-  margin-top: -110px;
-  overflow: auto;
 }
 
-.cd2 img{
-  height: 60px !important;
-  width: 60px;
-  position: relative;
-  top: -70px;
-  left: 27%;
-  border-radius: 50%;
-}
-
-.cd3 h3{
-  position: sticky;
-  color: white !important;
+.danf0{
+  position: absolute;
+  left: 300px;
+  top: 250px;
   z-index: 2;
-  font-family: 'albert', cursive !important;
-  margin-top: -110px;
-  margin-left: 64%;
-  overflow: auto;
 }
 
-.cd3 img{
-  height: 60px !important;
-  width: 60px;
-  position: relative;
-  top: -70px;
-  left: 52%;
-  border-radius: 50%;
+.danf1{
+  position: absolute;
+  left: 640px;
+  top: 250px;
+  z-index: 2;
 }
 
 #t, #q, #p{
@@ -318,11 +209,13 @@ h1{
   position: relative;
   display: flex;
   left: 12%;
+  height: 250px !important;
+  width: 300px !important;
 }
 
 #f1, #f2, #f3, #f4{
-  border: 2px solid #ffffff;
-  border-radius: 19px;
+  border: 2px solid #00FFFF;
+  border-radius: 19.6px;
 }
 
 #f1:hover , #f2:hover , #f3:hover , #f4:hover {
@@ -369,17 +262,12 @@ p{
   font-size: 23px;
 }
 
-break{
-  flex-basis: 100%;
-  width: 0px;
-  height: 0px;
-  overflow: hidden;
-}
 
 #ff1, #ff2, #ff3, #ff4, #ff5, #ff6{
-  border: 2px solid #ffffff;
+  border: 2px solid #00FFFF;
   border-radius: 19.6px;
   width: 280px;
+  height: 160px;
 }
 
 #pp1{
@@ -451,10 +339,38 @@ break{
 }
 
 #s1, #s2, #s3, #s4{
-  border: 2px solid #ffffff;
+  border: 2px solid #00FFFF;
   border-radius: 19.6px;
+  height: auto !important;
+  width: 280px !important;
 }
 
+.grid-container {
+  display: flex !important;
+  grid-column-gap: 50px !important;
+}
+
+#ss2{
+  position: absolute;
+  top: 120%;
+  left: 170px;
+}
+
+#ss3{
+  position: absolute;
+  left: 420px;
+}
+
+#ss4{
+  position: absolute;
+  top: 120%;
+  left: 620px;
+}
+
+.conclusion{
+  position: relative;
+  top: 400px !important;
+}
 #s1:hover, #s2:hover, #s3:hover, #s4:hover{
   -webkit-filter: brightness(50%);
   -webkit-transition: all 1s ease;
@@ -511,7 +427,7 @@ break{
 #but{
   position: relative;
   height: 50px;
-  background-color: #6163ff;
+  background-color: #00FFFF;
   text-decoration: none;
   color: white;
   outline: none;
@@ -531,16 +447,15 @@ break{
 }
 
 #d1, #d2, #d3, #d4, #d5, #d6{
-  border: 2px solid #ffffff;
+  border: 2px solid #00FFFF;
   border-radius: 19.6px;
+  -webkit-filter: grayscale(100%);
 }
 #d1:hover, #d2:hover, #d3:hover, #d4:hover, #d5:hover, #d6:hover {
-    -webkit-filter: brightness(50%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: 1s time;
+  -o-transition: 1s time;
+  transition: 1s time;
 }
 
 #posbug{
