@@ -2,17 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+@font-face {
+  font-family: albert;
+  src: url(fonts/albert.otf);
+}
+
 body{
   height: auto;
   width: auto;
   overflow-x: hidden !important;
+  background-color: #17131e;
 }
 
 #menu{
   position: relative;
   top: 25px;
   left: 20px;
+  z-index: 1;
 }
+
 
 #head{
   position: relative;
@@ -21,7 +29,8 @@ body{
 }
 
 h1{
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'albert', cursive;
+  color: white;
 }
 
 #search{
@@ -31,17 +40,24 @@ h1{
   right: 12px;
 }
 
+#angel{
+  position: relative;
+  left: 56%;
+  top: -110px;
+}
 #guy{
   width: 925px;
   height: 560px;
+  border: 2px solid #00ff00;
+  border-radius: 15px;
   border-radius: 15px;
   position: relative;
   left: 12%;
-  -webkit-filter: brightness(100%);
+  -webkit-filter: brightness(80%);
 }
 
 #guy:hover {
-  -webkit-filter: brightness(70%);
+  -webkit-filter: brightness(50%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -56,8 +72,8 @@ h1{
   font-size: 55px;
   color: white;
   z-index: 1 !important;
-  font-family: 'Poppins', sans-serif;
-  text-shadow: -1px 1px 0 #000,
+  font-family: 'albert', cursive;
+    text-shadow: -1px 1px 0 #000,
 				  1px 1px 0 #000,
 				 1px -1px 0 #000;
 				-1px -1px 0 #000;
@@ -69,7 +85,7 @@ h1{
   left: 15%;
   top: 93%;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'albert', cursive;
 }
 
 #dani{
@@ -82,7 +98,7 @@ h1{
   position: relative;
   width: 950px;
   height: 350px;
-  border-radius: 19.6px;
+  border-radius: 20px;
   left: 12%;
 }
 
@@ -115,8 +131,13 @@ h1{
   display: flex;
 }
 
+#three1, #three2, #three3{
+  border-radius: 19.6px;
+  border: 2px solid #00ff00;
+}
+
 #three1:hover {
-  -webkit-filter: brightness(70%);
+  -webkit-filter: brightness(50%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -125,7 +146,7 @@ h1{
 }
 
 #three2:hover {
-  -webkit-filter: brightness(70%);
+  -webkit-filter: brightness(50%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -134,7 +155,7 @@ h1{
 }
 
 #three3:hover {
-  -webkit-filter: brightness(70%);
+  -webkit-filter: brightness(50%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -145,9 +166,9 @@ h1{
 #text31{
   position: fixed;
   color: white !important;
-  z-index: 2;
-  font-family: 'Poppins', sans-serif;
-  text-shadow: -1px 1px 0 #000,
+  z-index: 1;
+  font-family: 'albert', cursive;
+    text-shadow: -1px 1px 0 #000,
 				  1px 1px 0 #000,
 				 1px -1px 0 #000;
 				-1px -1px 0 #000;
@@ -159,8 +180,8 @@ h1{
   position: fixed;
   color: white !important;
   z-index: 2;
-  font-family: 'Poppins', sans-serif;
-  text-shadow: -1px 1px 0 #000,
+  font-family: 'albert', cursive;
+    text-shadow: -1px 1px 0 #000,
 				  1px 1px 0 #000,
 				 1px -1px 0 #000;
 				-1px -1px 0 #000;
@@ -171,12 +192,12 @@ h1{
 #text33{
   position: fixed;
   color: white !important;
-  z-index: 2;
-  font-family: 'Poppins', sans-serif;
+  z-index: 4 !important;
+  font-family: 'albert', cursive;
   text-shadow: -1px 1px 0 #000,
-				  1px 1px 0 #000,
-				 1px -1px 0 #000;
-				-1px -1px 0 #000;
+        1px 1px 0 #000,
+       1px -1px 0 #000;
+      -1px -1px 0 #000;
   top: 25%;
   left: 51%;
 }
@@ -185,7 +206,7 @@ h1{
   position: sticky;
   color: white !important;
   z-index: 2;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'albert', cursive;
   margin-top: -50px;
   margin-left: 14%;
   overflow: auto;
@@ -204,7 +225,7 @@ h1{
   position: sticky;
   color: white !important;
   z-index: 2;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'albert', cursive;
   margin-left: 39%;
   margin-top: -110px;
   overflow: auto;
@@ -215,16 +236,16 @@ h1{
   width: 60px;
   position: relative;
   top: -70px;
-  left: 49%;
+  left: 27%;
 }
 
 .cd3 h3{
   position: sticky;
   color: white !important;
   z-index: 2;
-  font-family: 'Poppins', sans-serif;
-  margin-left: 64%;
+  font-family: 'albert', cursive;
   margin-top: -110px;
+  margin-left: 64%;
   overflow: auto;
 }
 
@@ -233,5 +254,5 @@ h1{
   width: 60px;
   position: relative;
   top: -70px;
-  left: 74%;
+  left: 52%;
 }
