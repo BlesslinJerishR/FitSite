@@ -1,4 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  height: auto;
+  width: auto;
+  overflow-x: hidden !important;
+}
+
 #menu{
   position: relative;
-  top: 5%;
+  top: 25px;
+  left: 20px;
+}
+
+#head{
+  position: relative;
+  text-align: center;
+  top: -33px;
+}
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+}
+
+#search{
+  position: relative;
+  float: right;
+  top: -100px;
+  right: 20px;
+}
+
+#guy{
+  width: 950px;
+  height: 560px;
+  border-radius: 15px;
+  position: relative;
+  left: 12%;
+}
+
+#three{
+  position: relative;
+  width: 950px;
+  height: 350px;
+  border-radius: 19.6px;
+  left: 12%
+}
+
+#az{
+  position: relative;
+  left: 12%;
 }
