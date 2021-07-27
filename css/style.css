@@ -12,6 +12,28 @@
   src: url(../fonts/gotham.ttf);
 }
 
+.foot1{
+  position: relative;
+  left: 15%;
+}
+
+.foot2{
+  position: absolute;
+  top: 32%;
+  left: 29%;
+}
+
+.foot3{
+  position: absolute;
+  top: 55%;
+  left: 43%;
+}
+
+.icos{
+  position: relative;
+  left: -290px !important;
+}
+
 html{
     font-family: "Poppins",Arial,sans-serif;
     scroll-behavior: smooth !important;
@@ -60,13 +82,14 @@ h1{
 #guy{
   width: 925px;
   height: 560px;
-  border: 2px solid #FFFF00;
+  border: 3px solid #FFFF00;
   border-radius: 15px;
   border-radius: 15px;
   position: relative;
   left: 0%;
   -webkit-filter: brightness(80%);
 }
+
 
 #guy:hover {
   -webkit-filter: brightness(50%);
@@ -143,7 +166,7 @@ h1{
 
 #three1, #three2, #three3{
   border-radius: 19.6px;
-  border: 2px solid #FFFF00;
+  border: 2px solid black;
 }
 
 #three1:hover {
