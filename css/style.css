@@ -24,6 +24,8 @@
   height: 40px;
   width: 380px;
   border-radius: 20px;
+  text-decoration: none;
+  outline: none;
 }
 #stick{
   position: relative;

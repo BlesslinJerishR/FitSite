@@ -19,26 +19,6 @@ anime.timeline({loop: true})
     delay: 1000
   });
 
-var textWrapper = document.querySelector('.mov1');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-anime.timeline({loop: true})
-  .add({
-    targets: '.mov1 .letter',
-    scale: [4,1],
-    opacity: [0,1],
-    translateZ: 0,
-    easing: "easeOutExpo",
-    duration: 950,
-    delay: (el, i) => 70*i
-  }).add({
-    targets: '.mov1',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-
 $(".hover").mouseleave(
   function () {
     $(this).removeClass("hover");
@@ -122,3 +102,23 @@ $(document).ready(function () {
     });
 
 });
+
+var textWrapper = document.querySelector('.mov1');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.mov1 .letter',
+    scale: [4,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 950,
+    delay: (el, i) => 70*i
+  }).add({
+    targets: '.mov1',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
