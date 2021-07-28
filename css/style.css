@@ -286,8 +286,10 @@ h1{
 }
 
 #danii{
+  position: relative;
   height: 40px;
   width: 40px;
+  left: 5%;
   border-radius: 50%;
 }
 
