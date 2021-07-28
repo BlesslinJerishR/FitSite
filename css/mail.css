@@ -4,8 +4,8 @@ html, body {
 
 .btn {
   display: inline-block;
-  background: #FFFF00;
-  color: #000;
+  background: red;
+  color: #FFF;
   text-transform: uppercase;
   position: relative;
   left: -230px;

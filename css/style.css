@@ -37,15 +37,17 @@
 html{
     font-family: "Poppins",Arial,sans-serif;
     scroll-behavior: smooth !important;
-    background-color: #000000 !important;
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
 }
 
 body{
   height: auto;
   width: auto;
   overflow-x: hidden !important;
-  background-color: #000000;
+  background-color: #FFFFFF !important;
   font-family: "Poppins",Arial,sans-serif;
+  color: #000000 !important;
 }
 
 #menu{
@@ -64,7 +66,7 @@ body{
 }
 
 h1{
-    color: white;
+    color: #000;
 }
 
 #search{
@@ -82,8 +84,7 @@ h1{
 #guy{
   width: 925px;
   height: 560px;
-  border: 3px solid #FFFF00;
-  border-radius: 15px;
+  border: 3px solid #000;
   border-radius: 15px;
   position: relative;
   left: 0%;
@@ -131,7 +132,6 @@ h1{
 
 .threes{
   position: relative;
-  border-radius: 19.6px;
   left: 10% !important;
 }
 
@@ -162,11 +162,6 @@ h1{
   left: 12%;
   -webkit-filter: brightness(100%);
   display: flex;
-}
-
-#three1, #three2, #three3{
-  border-radius: 19.6px;
-  border: 2px solid black;
 }
 
 #three1:hover {
@@ -236,11 +231,6 @@ h1{
   width: 300px !important;
 }
 
-#f1, #f2, #f3, #f4{
-  border: 2px solid #FFFF00;
-  border-radius: 19.6px;
-}
-
 #f1:hover , #f2:hover , #f3:hover , #f4:hover {
   -webkit-filter: brightness(50%);
   -webkit-transition: all 1s ease;
@@ -287,8 +277,6 @@ p{
 
 
 #ff1, #ff2, #ff3, #ff4, #ff5, #ff6{
-  border: 2px solid #FFFF00;
-  border-radius: 19.6px;
   width: 280px;
   height: 160px;
 }
@@ -362,8 +350,6 @@ p{
 }
 
 #s1, #s2, #s3, #s4{
-  border: 2px solid #FFFF00;
-  border-radius: 19.6px;
   height: auto !important;
   width: 280px !important;
 }
@@ -461,8 +447,6 @@ p{
 }
 
 #d1, #d2, #d3, #d4, #d5, #d6{
-  border: 2px solid #FFFF00;
-  border-radius: 19.6px;
   -webkit-filter: grayscale(100%);
 }
 #d1:hover, #d2:hover, #d3:hover, #d4:hover, #d5:hover, #d6:hover {
@@ -484,9 +468,9 @@ figcaption{
 }
 
 .b1{
-  border: 2px solid #FFFF00 !important;
-  background: #FFFF00 !important;
-  color: #000;
+  border: 2px solid #000 !important;
+  background: green !important;
+  color: #FFF;
   text-transform: uppercase;
   position: relative;
   top: -50px;
@@ -508,9 +492,9 @@ figcaption{
   top: -8px;
 }
 .b2{
-  border: 2px solid #FFFF00 !important;
-  background: #FFFF00 !important;
-  color: #000;
+  border: 2px solid #000 !important;
+  background: green !important;
+  color: #FFF;
   text-transform: uppercase;
   position: relative;
   top: -50px;
