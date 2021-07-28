@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 @font-face {
   font-family: albert;
@@ -17,10 +18,53 @@
   left: 15%;
 }
 
+#play{
+  position: relative;
+  top: -280px;
+  left: 18.5%;
+}
+
+#join{
+  position: relative;
+  left: 18.5%;
+  font-family: 'Roboto' !important;
+  font-size: 30px;
+  color: #FFF;
+  z-index: 3;
+  top: -300px;
+}
+
+.cookies{
+  border: 1px solid black;
+  height: 80px;
+  width: 280px;
+}
+
+#cookbtn{
+  /* start */
+}
+
+#cook{
+  color: black !important;
+}
+
+#fam{
+  position: relative;
+  text-align: center;
+  top: -32px;
+}
 .foot2{
   position: absolute;
   top: 32%;
   left: 29%;
+}
+
+#g11{
+  position: relative;
+  top: 250px !important;
+  left: 230px !important;
+  z-index: 2;
+  color: #FFF;
 }
 
 .foot3{
