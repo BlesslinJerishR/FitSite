@@ -13,6 +13,27 @@
   src: url(../fonts/gotham.ttf);
 }
 
+.run{
+  position: relative;
+  top: 380px !important;
+  z-index: 6;
+}
+#ser{
+  position: relative;
+  top: -70px;
+  height: 40px;
+  width: 380px;
+  border-radius: 20px;
+}
+#stick{
+  position: relative;
+  top: -60px;
+  left: -53px;
+}
+.search{
+  position: relative;
+  left: 50%;
+}
 .foot1{
   position: relative;
   left: 15%;
@@ -526,6 +547,17 @@ p{
   -o-transition: 1s time;
   transition: 1s time;
 }
+
+#d11, #d22{
+  -webkit-filter: grayscale(0%);
+}
+#d11:hover, #d22:hover{
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: 1s time;
+  -o-transition: 1s time;
+  transition: 1s time;
+}
+
 
 #posbug{
   position: relative;
