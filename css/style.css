@@ -35,16 +35,33 @@
 }
 
 .cookies{
+  position: relative;
   border: 1px solid black;
-  height: 80px;
-  width: 280px;
+  height: 70px;
+  background: #;
+  left: 40%;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  z-index: 5;
+  top: 80px;
+  display: flex;
 }
 
 #cookbtn{
-  /* start */
+  z-index: 5;
+  position: relative;
+  height: 35px;
+  width: 70px;
+  background-color: #000;
+  top: 16px;
+  border-radius: 50px;
+  color: #FFF;
 }
 
 #cook{
+  position: relative;
+  padding-left: 30px;
   color: black !important;
 }
 
