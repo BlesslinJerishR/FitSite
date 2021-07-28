@@ -36,7 +36,7 @@
 
 .cookies{
   position: relative;
-  border: 1px solid black;
+  border: 2px solid black;
   height: 70px;
   background: #;
   left: 40%;
@@ -57,6 +57,9 @@
   top: 16px;
   border-radius: 50px;
   color: #FFF;
+  text-decoration: none;
+  outline: none;
+  border: none;
 }
 
 #cook{
