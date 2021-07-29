@@ -6,6 +6,8 @@ A Health and Wealth Fitness website .
 
 >- HTML
 >>
+>>BootStrap
+>>
 >>Core
 >
 >- CSS
