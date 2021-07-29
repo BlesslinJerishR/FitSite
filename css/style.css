@@ -92,19 +92,21 @@ header{
   text-decoration: none;
   outline: none;
   border: none;
+  left: 15%;
 }
 
 #cook{
   position: relative;
   padding-left: 30px;
+  left: 13%;
   color: black !important;
 }
 
 #fam{
   position: relative;
   text-align: center;
-  top: -32px;
 }
+
 .foot2{
   position: absolute;
   top: 32%;
@@ -181,7 +183,7 @@ h1{
 #winy{
   position: relative;
   left: 53%;
-  top: -107px;
+  top: -64px;
 }
 
 #guy{
@@ -208,7 +210,7 @@ h1{
   position: absolute;
   left: 20%;
   top: 43%;
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   z-index: 1 !important;
   font-family: "Poppins",Arial,sans-serif !important;
