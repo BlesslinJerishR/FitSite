@@ -13,6 +13,9 @@
   color: #fff;
 }
 
+body {
+  transition: padding 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
 
 a {
   text-decoration: none;
@@ -20,13 +23,12 @@ a {
 }
 
 header {
-  display: flex;
-  z-index: 999 !important;
-  opacity: 100;
+  z-index: 5;
+  opacity: 0;
   transition: opacity 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 header .nav {
-  position: sticky;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -34,6 +36,8 @@ header .nav {
   height: 80px;
 }
 header .nav .title {
+  line-height: 80px;
+  padding: 0 120px;
   font-size: 24px;
   color: #fff;
   font-weight: 900;
@@ -56,14 +60,14 @@ header .nav .toggle .bar {
   position: relative;
   width: 40px;
   height: 2px;
-  /* background: #fff; */
+  background: #fff;
 }
 header .nav .toggle .bar:before, header .nav .toggle .bar:after {
   content: "";
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #FFF;
+  background: inherit;
   left: 0;
   transform-origin: center center;
   transition: transform 0.25s ease, top 0.25s ease, bottom 0.25s ease;
@@ -116,6 +120,7 @@ header .nav nav .showcase .showcase-container {
 header .nav nav .showcase .showcase-container:before {
   content: "";
   display: block;
+  padding-top: 100%;
 }
 header .nav nav .showcase .showcase-menu {
   position: absolute;
@@ -159,6 +164,7 @@ header .nav nav .menu {
 }
 header .nav nav .menu ul {
   width: 100%;
+  padding: 80px 48px 24px 48px;
   list-style-type: none;
   max-height: 100%;
   overflow-y: auto;
