@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+*{
+  padding: 0 0 0 0 !important;
+}
+
 @font-face {
   font-family: albert;
   src: url(../fonts/albert.otf);
@@ -11,6 +15,10 @@
 @font-face {
   font-family: gotham;
   src: url(../fonts/gotham.ttf);
+}
+
+header{
+  z-index: 25 !important;
 }
 
 .run{
@@ -32,6 +40,7 @@
   top: -60px;
   left: -53px;
 }
+
 .search{
   position: relative;
   left: 50%;
@@ -138,9 +147,9 @@ body{
 }
 
 #menu{
-  position: relative;
-  top: 25px;
-  left: 20px;
+  position: absolute;
+  top: 15px !important;
+  right: 10% !important;
   z-index: 1;
 }
 
@@ -148,7 +157,7 @@ body{
 #head{
   position: relative;
   text-align: center;
-  top: -33px;
+  top: -73px;
   font-family: 'albert', cursive !important;
 }
 
@@ -157,16 +166,16 @@ h1{
 }
 
 #search{
-  position: relative;
-  float: right;
-  top: -100px;
-  right: 12px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    z-index: 1;
 }
 
 #angel{
   position: relative;
   left: 56%;
-  top: -110px;
+  top: -150px;
 }
 
 #winy{
@@ -532,8 +541,8 @@ p{
 .doctors{
   position: relative;
   left: 10%;
-  display: flex;
-  flex-flow: row wrap;
+  display: flex !important;
+  flex-flow: row wrap !important;
 }
 
 #readb{
