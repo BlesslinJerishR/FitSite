@@ -16,6 +16,9 @@ A Health and Wealth Fitness website .
 >>
 >>Transition
 >
->- JS ( Vanilla )
+>- JavaScript
+>>
+>> Vanilla JS
+>> 
 >> Auto Copyright
 ##### Developer : Mastermindx33
