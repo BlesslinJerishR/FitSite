@@ -60,18 +60,20 @@ header .nav .toggle .bar {
   position: relative;
   width: 40px;
   height: 2px;
-  background: #fff;
+  background: #FFFFFF00;
 }
+
 header .nav .toggle .bar:before, header .nav .toggle .bar:after {
   content: "";
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
   background: inherit;
   left: 0;
   transform-origin: center center;
   transition: transform 0.25s ease, top 0.25s ease, bottom 0.25s ease;
 }
+
 header .nav .toggle .bar:before {
   top: -10px;
 }
@@ -283,11 +285,8 @@ header .nav nav.open .menu {
   position: relative;
   flex: 1;
   z-index: 999 !important;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/124740/2018-09-28%2009_21_48-https___d2kbkpwf98wmwo.cloudfront.net_videos_hero-lg.mp4.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
+
 .content p {
   color: #fff;
   opacity: 0;
